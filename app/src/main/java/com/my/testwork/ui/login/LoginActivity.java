@@ -150,10 +150,8 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
         boolean flag = true;
         if (TextUtils.isEmpty(email)) {
             flag = false;
-//            dialogsHelper.alertDialogErrorMsg("Поле Email не может быть пустым");
         } else if (!email.contains("@") || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             flag = false;
-//            dialogsHelper.alertDialogErrorMsg("Email введен неверно");
         }
         return flag;
     }

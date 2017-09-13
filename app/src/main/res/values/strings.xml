@@ -7,7 +7,7 @@
     <string name="action_sign_in">Войти</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">Электронная почта не верна</string>
-    <string name="error_incorrect_password">Пароль - минимум 6 символов, должен обязательно содержать минимум 1 строчную букву, 1 заглавную, и 1 цифру</string>
+    <string name="error_incorrect_password">Пароль - минимум 6 символов латинского алфавита, должен обязательно содержать минимум: 1 строчную букву, 1 заглавную и 1 цифру</string>
     <string name="error_field_required">Поле не можеть быть пустым</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
